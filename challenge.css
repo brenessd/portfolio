@@ -1,0 +1,86 @@
+
+.back-button{
+    display: flex;
+    margin: 3vh;
+  }
+  
+  img.back-button{
+    max-height: 2.75vh;
+    margin: auto;
+  }
+  
+  .challenge-nav-text{
+    padding-left: 1vh;
+    font-size: 2em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+  }
+  
+  .content-box{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 3vh;
+  }
+  
+  .challenge-title{
+    font-size: 8vh;
+    color: black;
+    padding: 2vh;
+  }
+  
+  .challenge-container{
+    display: flex;
+    text-align: justify;
+    border-left: 3px solid black;
+  }
+  
+  .light-grey{
+    color:#dbdbdb;
+    font-size: 5vh;
+    text-align: right;
+    padding: 0 2vh 0 7vh;
+    
+  }
+  
+  .grey-bold-title{
+    padding:2vh;
+    text-transform: uppercase;
+  }
+  
+  .challenge-description{
+    padding: 2vh 5vh 2vh 5vh;
+  }
+  
+  .font-black{
+    color:black;
+  }
+  
+  .lowercase{
+    text-transform: lowercase;
+  }
+  
+  .outline{
+    border-left: 2px solid #323232;
+    padding-left: 2.5vh;
+  }
+
+  .data-button{
+    display: inline-block;
+    padding: 0.25vh 2vh;
+    text-align: center;
+    color: #323232;
+    background: white; /* default color */
+    border: 3px solid #dbdbdb ;
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, white 50%, #dbdbdb 50%) right;
+    background-size: 200%;
+    transition: .25s ease-out;
+    font-size: 2vh;
+    margin: 2vh 3vh 0 0;
+    float: right;
+  }
+
+.data-button:hover {
+    background-position: left;
+}

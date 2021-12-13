@@ -1,0 +1,93 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Forum', cursive;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('images/home/mountains\ thin.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("images/home/mountains.jpg");
+  min-height: 400px;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+.w3-opacity-min{
+    opacity: 0.9;
+}
+
+.font-forum{
+    font-family: 'Forum', cursive;
+}
+
+.font-work{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.small{
+    font-size: 0.9vw;
+}
+
+.big{
+    font-size: 1.75vw;
+}
+
+.w3-content{
+    max-width: 85%;
+}
+
+.bio-photo{
+    border-radius: 50%;
+    margin-left: 20%;
+    max-width: 55%;
+    margin-top: 15%;
+}
+
+.overlay{
+    width: 100%;
+    margin-top: 50%;
+    border: 5px solid #fff;
+}
+
+.shift{
+    width: 100%;
+    border: 5px solid #fff;
+}
+
+.signature{
+    width: 100%;
+    font-family: 'Meow Script', cursive;
+    font-size: 1.5vw;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.caption{
+    color: black;
+    text-decoration: none;
+}
