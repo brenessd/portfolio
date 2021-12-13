@@ -38,13 +38,12 @@
     color:#dbdbdb;
     font-size: 5vh;
     text-align: right;
-    padding: 0 2vh 0 7vh;
-    
+    text-transform: uppercase;
+    font-weight: bold;
   }
   
   .grey-bold-title{
-    padding:2vh;
-    text-transform: uppercase;
+    padding: 0 2vh 0 7vh;
   }
   
   .challenge-description{
@@ -77,10 +76,82 @@
     background-size: 200%;
     transition: .25s ease-out;
     font-size: 2vh;
-    margin: 2vh 3vh 0 0;
+    margin: 2vh 0 0 0;
     float: right;
   }
 
 .data-button:hover {
     background-position: left;
+}
+
+
+.process-box{
+    margin-top: 10vh;
+}
+
+.topline{
+    width: 100%;
+    display: flex;
+}
+
+
+.bottomline{
+    width: 100%;
+    margin: 10vh 0 5vh 0;
+}
+
+.empty{
+    padding:1vh
+}
+
+.type1{
+    width: 70%
+}
+
+.type2{
+    width: 30%;
+    border-top: 3px solid black;
+}
+
+.type3{
+    width: 80%
+}
+
+.type4{
+    width: 20%;
+    border-top: 2px solid #323232;
+}
+
+.type5{
+    width: 90%
+}
+
+.type6{
+    width: 10%;
+    border-top: 1px solid #606060;
+}
+
+.process-title{
+    writing-mode: vertical-lr;
+    float: right;
+    font-size: 6vh;
+    text-orientation: upright;
+    margin: 7vh -2vh 7vh 0;
+}
+
+.process-content{
+    display: flex;
+}
+
+.process-description{
+    width: 90%;
+    margin-top: 10vh;
+}
+
+.process-title-box{
+    width: 10%;
+}
+
+.final-img{
+    max-width: 100%;
 }

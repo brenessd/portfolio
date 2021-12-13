@@ -9,11 +9,14 @@ function onClick(element) {
   window.onscroll = function() {myFunction()};
   function myFunction() {
       var navbar = document.getElementById("myNavbar");
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-          navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-      } else {
-          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+      if(navbar){
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        }
       }
+     
   }
   
   // Used to toggle the menu on small screens when clicking on the menu button
@@ -25,3 +28,15 @@ function onClick(element) {
           x.className = x.className.replace(" w3-show", "");
       }
   }
+
+    // sweep in from right
+    // window.onscroll = function() {myFunction()};
+    // function myFunction() {
+    //     var processBox = document.getElementById("process");
+    //     if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750) {
+    //         processBox.className = ;
+    //     } else {
+    //         //processBox.className = processBox.className.replace(" w3-card w3-animate-top w3-white", "");
+    //         console.log('else')
+    //     }
+    // }
