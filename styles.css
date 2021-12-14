@@ -69,14 +69,14 @@ body, html {
 }
 
 .overlay{
-    width: 100%;
+    width: 95%;
     margin-top: 50%;
-    border: 5px solid #fff;
+    box-shadow: 20px 20px 13px 0px #b5b5b5;
 }
 
 .shift{
-    width: 100%;
-    border: 5px solid #fff;
+    width: 95%;
+    box-shadow: 20px 20px 13px 0px #b5b5b5;
 }
 
 .signature{
@@ -90,4 +90,8 @@ body, html {
 .caption{
     color: black;
     text-decoration: none;
+    max-width: 85%;
+    word-wrap: break-word;
+    margin: 4vh auto 0 auto;
 }
+

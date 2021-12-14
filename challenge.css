@@ -26,6 +26,7 @@
     font-size: 8vh;
     color: black;
     padding: 2vh;
+    text-shadow: 2px #606060;
   }
   
   .challenge-container{
@@ -40,6 +41,7 @@
     text-align: right;
     text-transform: uppercase;
     font-weight: bold;
+    text-shadow: 2px 4px #f5f4f4;
   }
   
   .grey-bold-title{
@@ -154,4 +156,35 @@
 
 .final-img{
     max-width: 100%;
+}
+
+.corner-image{
+  max-width: 8%;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    margin: 0 5vh 0 0;
+    padding: 0;
+    width: 75%;
+    opacity: 0.9;
+}
+
+.process-card{
+  display:flex;
+  width:100%;
+}
+
+.process-card-img{
+  width:5%;
+  margin: auto 0;
+}
+
+.process-img{
+  max-width: 100%;
+  margin:auto 0;
+}
+
+.process-card-text{
+  width:80%;
+  margin:0 2vh;
 }
