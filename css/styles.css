@@ -17,7 +17,45 @@ body, html {
 .bgimg-1 {
   background-image: url('../images/home/mountains\ thin.jpg');
   min-height: 100%;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:0.9;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:0.9;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:0.9;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 0.9;
+  }
+}
+
+
 
 /* Second image (Portfolio) */
 .bgimg-2 {
