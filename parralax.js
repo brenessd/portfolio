@@ -29,14 +29,3 @@ function onClick(element) {
       }
   }
 
-    // sweep in from right
-    // window.onscroll = function() {myFunction()};
-    // function myFunction() {
-    //     var processBox = document.getElementById("process");
-    //     if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750) {
-    //         processBox.className = ;
-    //     } else {
-    //         //processBox.className = processBox.className.replace(" w3-card w3-animate-top w3-white", "");
-    //         console.log('else')
-    //     }
-    // }

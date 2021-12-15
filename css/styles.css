@@ -15,13 +15,13 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('images/home/mountains\ thin.jpg');
+  background-image: url('../images/home/mountains\ thin.jpg');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("images/home/mountains-compressed.jpg");
+  background-image: url("../images/home/mountains-compressed.jpg");
   min-height: 400px;
 }
 
