@@ -88,50 +88,9 @@
 
 
 .process-box{
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
-.topline{
-    width: 100%;
-    display: flex;
-}
-
-
-.bottomline{
-    width: 100%;
-    margin: 10vh 0 5vh 0;
-}
-
-.empty{
-    padding:1vh
-}
-
-.type1{
-    width: 70%
-}
-
-.type2{
-    width: 30%;
-    border-top: 3px solid black;
-}
-
-.type3{
-    width: 80%
-}
-
-.type4{
-    width: 20%;
-    border-top: 2px solid #323232;
-}
-
-.type5{
-    width: 90%
-}
-
-.type6{
-    width: 10%;
-    border-top: 1px solid #606060;
-}
 
 .process-title{
     writing-mode: vertical-lr;
@@ -147,15 +106,17 @@
 
 .process-description{
     width: 90%;
-    margin-top: 10vh;
+    margin-top: 7vh;
 }
 
 .process-title-box{
     width: 10%;
+    margin-top: 7vh
 }
 
 .final-img{
     max-width: 100%;
+    margin-bottom: 10vh;
 }
 
 .corner-image{
@@ -176,15 +137,16 @@
 
 .process-card-img{
   width:5%;
-  margin: auto 0;
+  margin: 2vh 0;
 }
 
 .process-img{
   max-width: 100%;
-  margin:auto 0;
+ 
 }
 
 .process-card-text{
   width:80%;
   margin:0 2vh;
 }
+
