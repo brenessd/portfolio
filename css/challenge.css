@@ -28,6 +28,10 @@ img.back-button {
   text-shadow: 2px #606060;
 }
 
+.whiskey-title{
+  font-size: 6vh;
+}
+
 .challenge-container {
   display: flex;
   text-align: justify;
