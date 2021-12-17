@@ -130,6 +130,17 @@
     opacity: 0.9;
 }
 
+.corner-image-2{
+  max-width: 12%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 0 2vh 2vh 0;
+  padding: 2vh;
+  width: 100%;
+  opacity: 0.9;
+}
+
 .process-card{
   display:flex;
   width:100%;
@@ -142,7 +153,6 @@
 
 .process-img{
   max-width: 100%;
- 
 }
 
 .process-card-text{
@@ -150,3 +160,23 @@
   margin:0 2vh;
 }
 
+.process-img-1{
+  width: 100%;
+  margin: auto;
+  opacity: 0.8;
+}
+
+.process-card-img-1{
+  width:12%;
+  margin: auto 1vh auto 1vh;
+}
+
+.bottom-image{
+  width: 80%;
+  margin: auto;
+}
+
+.adjacency-img{
+  max-width: 80%;
+  margin: 12vh;
+}

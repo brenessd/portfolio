@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<title>Brenes Fall 2021 Portfolio</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Forum&family=Work+Sans:wght@100;300;400;600&display=swap"
+  rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/challenge.css" />
+<link rel="stylesheet" href="css/triangles.css" />
+
+<body>
+  <!-- Navbar (sit on top) -->
+
+  <div class="w3-top">
+    <div class="w3-bar" id="challengeNavbar">
+      <a class="
+            w3-bar-item
+            w3-button
+            w3-hover-black
+            w3-hide-medium
+            w3-hide-large
+            w3-right
+          " href="index.html">
+        <img class="back-button w3-animate-fading" src="images/challenge/back-left-arrow.svg" />
+      </a>
+      <a href="index.html" class="w3-bar-item w3-button">
+        <div class="back-button">
+          <img class="back-button" src="images/challenge/back-left-arrow.svg" />
+          <span class="challenge-nav-text">back</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <img class="corner-image-2" src="images/challenge/mountains-triangle.jpeg"></img>
+
+
+  <!-- Container (About Section) -->
+  <!-- Introduction Section -->
+  <div class="content-box">
+    <div class="w3-content">
+      <div class="w3-row w3-padding-64">
+        <div class="outline">
+          <div class="process-card">
+            <h1 class="challenge-title">Graphs in a Plane</h1>
+            <div class="process-card-img-1">
+              <img class="process-img-1" src="images/challenge/mountains-geom.jpeg"></img>
+            </div>
+          </div>
+          <div class="challenge-container">
+            <div class="grey-bold-title">
+              <h1 class="font-work light-grey">
+                <b>
+                  the <br />
+                  adjacency <br />
+                  matrix <br />
+                  Data <br />
+                  Set
+                </b>
+              </h1>
+              <a href="pdfs/adjacency_project/adjacency-matrix.txt" target="_blank">
+                <button class="button-small data-button">view</button>
+              </a>
+            </div>
+            <div class="challenge-description">
+              <h4 class="font-black">
+                <b></b>
+              </h4>
+
+              <h4>
+                The purpose of this challenge is to give you an appreciation of just how difficult it is to lay out a graph in the plane. 
+              </h4>
+
+              <h4 class="font-black">
+                <b>Objective</b>
+              </h4>
+              <h4>
+                You have been provided an adjacency matrix for an undirected graph. Your objective is to come up with a positioning for all the vertices to create an aesthetically pleasing graph. 
+              </h4>
+
+              <h4 class="font-black">
+                <b>Constraints:</b>
+              </h4>
+              <h4>
+                <ul>
+                  <li>
+                    Your visualization should fit on the front of a
+                    single piece of paper.
+                  </li>
+
+                  <li>
+                    You must draw your graph using standard techniques: edges are lines drawn between vertices, vertices are represented by some kind of glyph with the vertex number inside. 
+                  </li>
+
+                  <li>
+                    You may draw by hand or use software to asist you. 
+                  </li>
+                </ul>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Container (About Section) -->
+      <!-- Process Lines-->
+      <div id="process" class="process-box">
+        <div class="topline">
+          <div class="empty-top type1"></div>
+          <div class="empty-top type2"></div>
+        </div>
+
+        <div class="topline">
+          <div class="empty-top type3"></div>
+          <div class="empty-top type4"></div>
+        </div>
+
+        <div class="topline">
+          <div class="empty-top type5"></div>
+          <div class="empty-top type6"></div>
+        </div>
+
+        <div class="process-content">
+
+          <div class="process-description">
+            <div class="process-card">
+              <div class="process-card-img">
+                <img class="process-img" src=""></img>
+              </div>
+              <div class="process-card-text">
+                <h4 class="font-black">
+                  <b>
+                    Understanding the data set.
+                  </b></br>
+
+                  The Whiskies Data Set had 17 different attributes, 12 of which related to the taste and aroma of each
+                  whiskey on an increasing scale from 1 to 4.
+                </h4>
+              </div>
+            </div>
+
+
+            <div class="process-card">
+              <div class="process-card-img">
+                <img class="process-img" src="images/challenge/barrel.jpeg"></img>
+              </div>
+              <div class="process-card-text">
+                <h4 class="font-black">
+                  <b>
+                    Task.
+                  </b> </br>
+                  For this visualization, I chose to represent the flavor profile for a single whiskey in the form of a
+                  heat map as a proof of concept. The reader should be able to easily glance over the flavor profile and
+                  determine how strong a certain element is in the drink.
+                </h4>
+              </div>
+            </div>
+
+            <div class="process-card">
+              <div class="process-card-img">
+                <img class="process-img" src="images/challenge/barrel.jpeg"></img>
+              </div>
+              <div class="process-card-text">
+                <h4 class="font-black">
+                  <b>
+                    Creating the Visualization.
+                  </b></br>
+
+                  I used Canva to draw and create the heatmap. I positioned the categorical variables (flavor) on the
+                  horizontal axis and the sequential variable on (strength) the vertical axis to produce the map. I
+                  leveraged colorbrewer2.org to choose a sequential color pallete in the colors and tones of a shot
+                  whiskey. The lightest color (yellow) represents a lighter flavor profile, while the darkest color
+                  (brown) represents a stronger flavor profile. I finished the visualization by adding a pencil sketch
+                  of a glass of whiskey with the name of the drink being profiled for context.
+
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="process-title-box">
+            <h1 class="process-title light-grey font-work ">Process</h1>
+          </div>
+        </div>
+
+
+
+        <div class="bottomline">
+          <div class="empty-bottom type6"></div>
+          <div class="empty-bottom type4"></div>
+          <div class="empty-bottom type2"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="bottom-image">
+      <img class="adjacency-img" src="pdfs/adjacency_project/adjacency-transformation.png"></img>
+    </div>
+
+  </div>
+
+  <footer class="w3-center w3-black">
+    <p>Designed by Stacy D. Brenes</p>
+  </footer>
+
+  <script src="parralax.js"></script>
+</body>
+
+</html>
